@@ -1,5 +1,6 @@
 # Redfin-Housing-Price-Prediction
 
+This project is owned by Rebecca Wei and Ying(Mia) Chen
 Our primary goal for this product is to quantify the returns on investment of the properties with advanced statistical, machine learning and time series forecast techniques that our customers can make comparisons between different locations, types of properties and then find the most appropriate one.  After implementing our analysis, customers will now get a better understanding of the housing market trend across different states and cities, further they will be able to wisely make investment decisions. In addition, by providing customers with proper zip code and housing types they should be able to have more targeted goals when looking for an investment home. We will use our existing workflows within the organization to ensure seamless transitions between different teams and ensure the success of our product. 
 
 Primary objective: 
@@ -11,7 +12,7 @@ Data:
 The data that we are using in this project is the housing information from Redfin. We scrape all housing information of the sold properties with the past 5 years from Redfin, while in order to keep the completeness of the data (i.e. avoid missing sales data for any months), we only provide analysis on three different housing types (Condo/Single Family/Townhouse) that are most popular. Our product was designed to scrape the housing information based on the zip codes provided by the users, while for demonstration purposes, we use 10+ different zip codes in the south bay area. The target variables are different for each of the steps we designed to get the final output. The first step where we gathered the housing data and put it into a time-series prediction model, the target output is zip code. In our second step we use the previous zip code which gives the highest return on investment to further make predictions on property types and find the type that’s highest on ROI, in this case, the target variable is property type. The last step where we built a non-time series predictive model to predict listing prices, the target variable here is price. More details will be provided in the ‘Types of Analytics’ section.
 By conducting exploratory data analysis, we further identified some pricing patterns for each zip code and property types, we also dropped columns that are not used and formatted the dataset for the next step. Since our data is time-series sensitive, we are very careful when handling the null values and making sure we keep the original data as consistent as possible. 
 
-- Types of Analytics:
+Types of Analytics:
 As mentioned in the ‘Data’  section, we performed both predictive analytics and exploratory (descriptive) analytics throughout our projects. More specifically, both time-series modeling and non time-series modeling can be found in our project. Here, we will mainly focus on predictive modeling. 
 
 Predictive Analytics:
