@@ -1,6 +1,7 @@
 # Redfin-Housing-Price-Prediction
 
 This project is owned by Rebecca Wei and Ying(Mia) Chen
+
 Our primary goal for this product is to quantify the returns on investment of the properties with advanced statistical, machine learning and time series forecast techniques that our customers can make comparisons between different locations, types of properties and then find the most appropriate one.  After implementing our analysis, customers will now get a better understanding of the housing market trend across different states and cities, further they will be able to wisely make investment decisions. In addition, by providing customers with proper zip code and housing types they should be able to have more targeted goals when looking for an investment home. We will use our existing workflows within the organization to ensure seamless transitions between different teams and ensure the success of our product. 
 
 Primary objective: 
